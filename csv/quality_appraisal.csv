@@ -1,0 +1,103 @@
+ID,Year,Author,Title,"QA1 (Are the objectives and the context of research clear, and well connected with DKT?) ","QA2 (Does the research adequately delineate the methodology (training dataset, the model architecture, and its hyper-parameters?)","QA3 (Does the research adequately delineate the experiments (e.g., investigating sequential or temporal consistency, interpretability, data inconsistency, or real-world applicability of the model?)","QA4 (is there congruence between methodology and methods used for data collection, analysis, and interpretation?)",QA5 (Are the study contributions and limitations clearly stated?),Sum of scores (max=5),"Notes
+Low-Medium-High quality"
+,2023,,Calibrated Q-Matrix-Enhanced Deep Knowledge Tracing with Relational Attention Mechanism,1,1,1,1,1,,5
+,2019,,Graph-based knowledge tracing: Modeling student proficiency using graph neural networks,1,1,1,1,1,,5
+,2024,,Learning consistent representations with temporal and causal enhancement for knowledge tracing,1,1,1,1,1,,5
+,2024,,Knowledge Graph and Personalized Answer Sequences for Programming Knowledge Tracing,1,1,1,1,1,,5
+,2024,,Bridging the Vocabulary Gap: Using Side Information for Deep Knowledge Tracing,1,1,1,1,1,,5
+,2024,,ELAKT: Enhancing Locality for Attentive Knowledge Tracing,1,1,1,1,1,,5
+,2022,,Deep Knowledge Tracing with Learning Curves,1,1,1,1,1,,5
+,2024,,Design and evaluation of Trustworthy Knowledge Tracing Model for Intelligent Tutoring System,1,1,1,1,1,,5
+,2024,,Pull together: Option-weighting-enhanced mixture-of-experts knowledge tracing,1,1,1,1,1,,5
+,2024,,Heterogeneous graph-based knowledge tracing with spatiotemporal evolution,1,1,1,1,1,,5
+,2024,,Deep Knowledge Tracking Integrating Programming Exercise Difficulty and Forgetting Factors,1,1,1,1,1,,5
+,2024,,Temporal learner modelling through integration of neural and symbolic architectures,1,1,1,1,1,,5
+,2022,,A Knowledge Query Network Model Based on Rasch Model Embedding for Personalized Online Learning,1,1,1,1,1,,5
+,2024,,Interpretable Knowledge Tracing with Multiscale State Representation,1,1,1,1,1,,5
+,2021,,EKT: Exercise-Aware Knowledge Tracing for Student Performance Prediction,1,1,1,1,0.5,,4.5
+,2019,,Knowledge tracing machines: Factorization machines for knowledge tracing,1,1,1,1,0.5,,4.5
+,,,DF-EGM: Personalised Knowledge Tracing with Dynamic Forgetting and Enhanced Gain Mechanisms,1,1,1,1,0.5,,4.5
+,,,Context-Aware Attentive Knowledge Tracing,1,1,1,1,0.5,,4.5
+,,,Tracking knowledge proficiency of students with calibrated Q-matrix,1,1,0.5,1,1,,4.5
+,,,GameDKT: Deep knowledge tracing in educational games,1,1,0.5,1,1,,4.5
+,,,Knowledge interaction enhanced sequential modeling for interpretable learner knowledge diagnosis in intelligent tutoring systems,1,1,0.5,1,1,,4.5
+,,,Deep Graph Memory Networks for Forgetting-Robust Knowledge Tracing,1,1,0.5,1,1,,4.5
+,,,Ensemble Knowledge Tracing: Modeling interactions in learning process,1,1,1,1,0.5,,4.5
+,,,Federated Deep Knowledge Tracing,1,1,1,1,0.5,,4.5
+,,,Deep Learning vs. Bayesian Knowledge Tracing: Student Models for Interventions.,1,1,0.5,1,1,,4.5
+,,,A novel framework for deep knowledge tracing via gating-controlled forgetting and learning mechanisms,1,1,1,1,0.5,,4.5
+,,,Infusing Expert Knowledge Into a Deep Neural Network Using Attention Mechanism for Personalized Learning Environments,1,1,1,1,0.5,,4.5
+,,,Exploiting multiple question factors for knowledge tracing,1,1,1,1,0.5,,4.5
+,,,AdaptKT: A Domain Adaptable Method for Knowledge Tracing,1,1,1,1,0.5,,4.5
+,,,Dynamic Cognitive Diagnosis: An Educational Priors-Enhanced Deep Knowledge Tracing Perspective,1,1,0.5,1,1,,4.5
+,,,Modeling knowledge proficiency using multi-hierarchical capsule graph neural network,1,1,1,1,0.5,,4.5
+,,,Monitoring Student Progress for Learning Process-Consistent Knowledge Tracing,1,1,1,1,0.5,,4.5
+,,,SPAKT: A Self-Supervised Pre-TrAining Method for Knowledge Tracing,1,1,1,1,0.5,,4.5
+,,,Adaptive meta-knowledge dictionary learning for incremental knowledge tracing,1,1,0.5,1,1,,4.5
+,,,GraphCA: Learning from Graph Counterfactual Augmentation for Knowledge Tracing,1,1,0.5,1,1,,4.5
+,,,Enhanced Knowledge Tracing With Learnable Filter,1,1,1,1,0.5,,4.5
+,,,Self-paced contrastive learning for knowledge tracing,1,1,1,1,0.5,,4.5
+,,,Global Feature-guided Knowledge Tracing,1,1,1,1,0.5,,4.5
+,,,MLC-DKT: A multi-layer context-aware deep knowledge tracing model,1,1,1,1,0.5,,4.5
+,,,Interaction Sequence Temporal Convolutional Based Knowledge Tracing,1,1,1,1,0.5,,4.5
+,,,Integrating fine-grained attention into multi-task learning for knowledge tracing,1,1,1,1,0.5,,4.5
+,,,A probabilistic generative model for tracking multi-knowledge concept mastery probability,1,1,1,1,0.5,,4.5
+,,,SFBKT: A Synthetically Forgetting Behavior Method for Knowledge Tracing,1,1,1,1,0.5,,4.5
+,,,Towards more accurate and interpretable model: Fusing multiple knowledge relations into deep knowledge tracing,1,1,1,1,0.5,,4.5
+,,,A Genetic Causal Explainer for Deep Knowledge Tracing,1,1,1,1,0.5,,4.5
+,,,Explore Bayesian analysis in Cognitive-aware Key-Value Memory Networks for knowledge tracing in online learning,1,1,1,1,0.5,,4.5
+,,,Meta-path structured graph pre-training for improving knowledge tracing in intelligent tutoring,1,1,0.5,1,1,,4.5
+,,,GELT: A graph embeddings based lite-transformer for knowledge tracing,1,1,1,1,0.5,,4.5
+,,,An efficient state-aware Coarse-Fine-Grained model for Knowledge Tracing,1,1,1,1,0.5,,4.5
+,,,Heterogeneous Evolution Network Embedding with Temporal Extension for Intelligent Tutoring Systems,1,1,0.5,1,1,,4.5
+,,,Leveraging Pedagogical Theories to Understand Student Learning Process with Graph-based Reasonable Knowledge Tracing,1,1,0.5,1,1,,4.5
+,,,JKT: A joint graph convolutional network based Deep Knowledge Tracing,1,1,0.5,1,0.5,,4
+,,,Learning Process-consistent Knowledge Tracing,1,1,0.5,1,0.5,,4
+,,,Implicit Heterogeneous Features Embedding in Deep Knowledge Tracing,1,1,0.5,1,0.5,,4
+,,,Knowledge Query Network for Knowledge Tracing,1,1,0.5,1,0.5,,4
+,,,SGKT: Session graph-based knowledge tracing for student performance prediction,1,1,0.5,1,0.5,,4
+,,,Knowledge structure enhanced graph representation learning model for attentive knowledge tracing,1,1,0.5,1,0.5,,4
+,,,Improving Knowledge Tracing with Collaborative Information,1,1,0.5,1,0.5,,4
+,,,Enhancing Knowledge Tracing via Adversarial Training,1,1,0.5,1,0.5,,4
+,,,Ability boosted knowledge tracing,1,1,0.5,1,0.5,,4
+,,,Assessing Student's Dynamic Knowledge State by Exploring the Question Difficulty Effect,1,1,0.5,1,0.5,,4
+,,,Enhancing Deep Knowledge Tracing with Auxiliary Tasks,1,1,0.5,1,0.5,,4
+,,,Introducing Problem Schema with Hierarchical Exercise Graph for Knowledge Tracing,1,1,0.5,1,0.5,,4
+,,,What is wrong with deep knowledge tracing? Attention-based knowledge tracing,1,1,0.5,1,0.5,,4
+,,,Learning Behavior-oriented Knowledge Tracing,1,1,0.5,1,0.5,,4
+,,,Knowledge tracing based on multi-feature fusion,1,1,0.5,1,0.5,,4
+,,,Improving knowledge tracing via a heterogeneous information network enhanced by student interactions,1,1,0.5,1,0.5,,4
+,,,DCKT: A Novel Dual-Centric Learning Model for Knowledge Tracing,1,1,0.5,1,0.5,,4
+,,,Transition-Aware Multi-Activity Knowledge Tracing,1,1,0.5,1,0.5,,4
+,,,Learning from Non-Assessed Resources: Deep Multi-Type Knowledge Tracing,1,1,0.5,1,0.5,,4
+,,,DKVMN-KAPS: Dynamic Key-Value Memory Networks Knowledge Tracing With Students' Knowledge-Absorption Ability and Problem-Solving Ability,1,1,0.5,1,0.5,,4
+,,,Discovering Multi-Relational Integration for Knowledge Tracing with Retentive Networks,1,1,0.5,1,0.5,,4
+,,,Improving Knowledge Tracing via Considering Students' Interaction Patterns,1,1,0.5,1,0.5,,4
+,,,Stable Knowledge Tracing Using Causal Inference,1,1,0.5,1,0.5,,4
+,,,Modeling Student Performance Using Feature Crosses Information for Knowledge Tracing,1,0.5,1,1,0.5,,4
+,,,A deeper knowledge tracking model integrating cognitive theory and learning behavior,1,1,0.5,1,0.5,,4
+,,,Attention and Learning Features-Enhanced Knowledge Tracing,1,1,0.5,1,0.5,,4
+,,,MonaCoBERT: Monotonic Attention Based ConvBERT for Knowledge Tracing,1,1,0.5,1,0.5,,4
+,,,Deep Knowledge Tracing Incorporating a Hypernetwork With Independent Student and Item Networks,1,1,0.5,1,0.5,,4
+,,,Embedding cognitive framework with self-attention for interpretable knowledge tracing,1,1,0.5,1,0.5,,4
+,,,Knowledge Tracing Model and Student Profile Based on Clustering-Neural-Network,1,1,0.5,1,0.5,,4
+,,,Improving Interpretability of Deep Sequential Knowledge Tracing Models with Question-centric Cognitive Representations,1,1,0.5,1,0.5,,4
+,,,Model-agnostic counterfactual reasoning for identifying and mitigating answer bias in knowledge tracing,1,1,0.5,1,0.5,,4
+,,,Enhanced Knowledge Tracing via Frequency Integration and Order Sensitivity,1,1,0.5,1,0.5,,4
+,,,Interpretable Knowledge Tracing via Response Influence-based Counterfactual Reasoning,1,1,0.5,1,0.5,,4
+,,,TGKT-Based Personalized Learning Path Recommendation with Reinforcement Learning,1,0.5,0.5,1,1,,4
+,,,DiKT: Dichotomous Knowledge Tracing,1,0.5,0.5,1,0.5,,3.5
+,,,CAKT: Coupling contrastive learning with attention networks for interpretable knowledge tracing,1,0.5,0.5,1,0.5,,3.5
+,,,Deep-IRT with a Temporal Convolutional Network for Reflecting Students' Long-Term History of Ability Data,1,0.5,0.5,1,0.5,,3.5
+,,,DKVMN&MRI: A new deep knowledge tracing model based on DKVMN incorporating multi-relational information,1,0.5,0.5,1,0.5,,3.5
+,,,A student modeling method combining Deep Learning and forgetting models with Knowledge Tracing,1,0.5,0.5,1,0.5,,3.5
+,,,RIGL: A Unified Reciprocal Approach for Tracing the Independent and Group Learning Processes,1,0.5,0.5,1,0.5,,3.5
+,,,Cognition-Mode Aware Variational Representation Learning Framework for Knowledge Tracing,1,0.5,0.5,1,0.5,,3.5
+,,,A Question-centric Multi-experts Contrastive Learning Framework for Improving the Accuracy and Interpretability of Deep Sequential Knowledge Tracing Models,1,0.5,0.5,1,0.5,,3.5
+,,,Input-Aware Neural Knowledge Tracing Machine,1,0.5,0.5,1,0.5,,3.5
+,,,Dynamic Key-Value Gated Recurrent Network for Knowledge Tracing,1,0.5,0.5,1,0.5,,3.5
+,,,Tracing Knowledge Instead of Patterns: Stable Knowledge Tracing with Diagnostic Transformer,1,0.5,0.5,1,0.5,,3.5
+,,,An Efficient and Generic Method for Interpreting Deep Learning based Knowledge Tracing Models,1,0.5,0.5,0.5,0.5,,3
+,,,Extending deep knowledge tracing: Inferring interpretable knowledge and predicting post-system performance,1,0,0,0.5,0.5,,2
+,,,Concept-aware deep knowledge tracing and exercise recommendation in an online learning system,0.5,0.5,0,0.5,0,,1.5
+,,,,,,,,,,0

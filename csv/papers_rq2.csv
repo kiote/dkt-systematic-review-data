@@ -1,0 +1,117 @@
+ID,RQ2
+1,No
+2,No
+3,"""There are two clear limitations for the Q-matrix: (1). it is marked manually and highly subjective, which may contain errors or subjective bias; (2). it is very sparse, which poses a great challenge for training deep learning-based models."""
+4,"To overcome this (sparsity) problem, we sample 2 negative samples for each positive sample, following the negative sampling approach proposed in [42]"
+5,No
+6,No
+7,"""To address the problem of lacking sufficient data, transfer learning technique [42, 43] develops fastly and has been widely applied in many areas [9, 13, 21]. The goal of the developed models is to transfer the latent representations obtained from a large labeled source dataset to a smaller unlabeled target dataset. Domain adaptation is a branch of transfer learning. One of the research directions of domain adaptation focuses on minimizing the discrepancy of certain feature distributions between the source and target domain. """
+8,No
+9,The paper addresses data bias by using a causal self-attention mechanism inspired by causal inference theory to eliminate prediction errors caused by data bias. It also considers overfitting issues related to data sparsity or imbalance by employing methods like sparseKT-soft and sparseKT-topK.
+10,No
+11,"""To process the sparse data, the one-hot encoding data will be reduced to
+low-dimensional representation through embedding"""
+12,No
+13,No
+14,No
+15,No
+16,No
+17,No
+18,"The paper addresses the issue of sparse interactions between students and questions, which is a form of data sparsity.
+
+""To bridge this gap, we propose to explicitly model a student's experience on the same knowledge concept with the one covered by the next question, and combine the experience with the student's overall knowledge state to predict her response to the next question. """
+19,No
+20,No
+21,No
+22,No
+23,No
+24,No
+25,No
+26,No
+27,"""When there is a nonnegligible sparsity problem with the questions, models having knowledge component information as input (DKVMN, DKT_KC, and DKT_MLP) have better performance than DKT_Q, which is unaware of the knowledge components."" They addressed this by incorporating knowledge component information and preprocessing data by removing questions with fewer than 15 responses.
+
+""Among the deep knowledge tracing models, when there is a nonnegligible sparsity problem with the questions, models having knowledge component information as input (DKVMN, DKT_KC, and DKT_MLP) have better performance than DKT_Q, which is unaware of the knowledge components."""
+28,"Addresses ""cold-start problem""
+
+""That is, we have to make predictions for new students and new exercises. In this scenario, limited information could be exploited, and thus, leading to the poor prediction results."""
+29,No
+30,The paper addresses potential data sparsity and imbalance by using interaction frequency as a proxy for learning rates and truncating high frequencies to manage outliers. It does not explicitly mention bias but implies handling data inconsistencies through these methods.
+31,No
+32,No
+33,No
+34,"""Avoiding properly the curse of dimensionality and enormous sparsity and excavating adequately the question infor- mation contained in interactions between student-question answer space and question-concept association space."""
+35,"the performance of the model declines as the size of the training data set decreases across all three data sets. However, even when the training data is reduced to 1/5 of its original training size, the performance only decreases by 2.57%, 3.67%, and 3.84% respectively compared to the original performance. This further demonstrates that our proposed method can still achieve superior prediction performance even with a significant reduction in training data."
+36,"""different schools usually have different learning schedules, thus, students isolated may practice inconsistent and unbalanced learning processes"" and notes ""inconsistency between data scales and data quality"" (Section 5.1), which leads to ""Non-IID"" scenarios where ""distributions of data in local silos depend on data owners and are significantly different from the global one"""
+37,"Methods to overcome sparsity problem: ""Since some players developed less than the standard 20 solutions required to complete the game, which may or may not have resulted in them winning the game, we employed two techniques to create a stationary submission set for each player. These include padding and replacing missing values using linear interpolation between the two neighbouring values in the series, which calculates the replacement value."""
+38,The paper mentions an imbalance between positive and negative samples in the dataset and addresses it by using the Area Under the Curve (AUC) as a performance metric to evaluate model performance. AUC is robust against sample class distribution imbalances.
+39,"Addresses bias: ""In the novel contrastive loss function, distinct weights are assigned to global and local data, facilitating deep knowledge tracing models in learning from global data information. This strategy helps balance the model's focus between students with varying levels of interaction with skills."" 
+
+The paper addresses this bias by introducing a contrastive learning strategy that aims to balance the model's focus between students with different levels of interaction."
+40,No
+41,"""To alleviate the inherent data sparsity issue in the knowledge tracing task, we resort to the modeling of the counterfactual world, which not only contains observed data but also unobserved data.""
+
+""result demonstrates the effectiveness of our counterfactual graph and the contrastive learning method in alleviating the data sparsity issue"""
+42,No
+43,No
+44,"The paper mentions potential bias introduced by manual feature engineering due to insufficient domain knowledge and noise from improperly pre-processed heterogeneous features. It also notes performance degradation related to dataset size, suggesting issues with data sparsity or imbalance. They do not seem to offer how to solve this problem though
+
+""., they require sufficient domain knowledge to understand the data. This may introduce bias when practitioners cannot fully explore the data. """
+45,No
+46,No
+47,No
+48,No
+49,"""Machine learning models are biased toward data seen during the training steps. The models will tend to give good results in classes where there are many examples and poor results in those with few examples. This problem generally occurs when the classes to predict are imbalanced and this is frequent in educational data""
+
+""...for skills that are easy to master which means the rare occurrence of incorrect answers, the model will also fail to accurately predict the student's knowledge. """
+50,No
+51,IAM (imbalance aware attention mechanism) is designed to address the inherent problem of uneven exercise samples by automatically assigning personalized weights to exercises with different prior sample counts
+52,No
+53,"Offer a model that ""Mitigates sparsity in student-concept interactions using contrastive learning."""
+54,No
+55,"The paper mentions an imbalance issue between the student set size and concept set size in the datasets ASSISTment 2015 and ASSISTment Challenge, leading to low distinction in student-concept representations. This is acknowledged as a limitation of the JKT model. They do not seem to offer solution
+
+""In the datasets ASSISTment 2015 and ASSISTment Challenge, most of the methods did not perform as well as they did in the other two datasets. The main reason is that when the student set size and concept set size are imbalanced, JKT may produce excessive scale of student-concept representations with low distinction. """
+56,No
+57,"""To avoid noise, following the existing studies, we also delete users whose interaction entries are less than 10 and with items with NaN skills in all the above mentioned datasets."" They also note data imbalance in the Assist1213 dataset: ""This dataset contains the maximum number of learners and the largest number of interaction entries (i.e., near 2.7 million); however, the average attempted items per user are very low (118.73). The whole correctness for all items is also very low, at 0.6959."""
+58,No
+59,"Our method offers two advantages over the existing models: first, it inputs extra information into the question representation by referencing the KS (thus alleviating the data sparsity problem in the question representation), and second, it models the impact of previous experiences on future exercise during the knowledge evolution.
+
+To alleviate the sparseness problem, most of the exiting KT studies are performed at the skill_level rather than the question_level, as questions are often numerous and associated with much fewer skills."
+60,No
+61,No
+62,"The paper states: ""In this view, the bias of students� learning data can be attributed to the presence of a confounder - a common cause of the independent variable __ and the dependent variable __, which establishes a spurious correlation between __ and __ (Glymour, Pearl, & Jewell, 2016)."" To address this issue, the authors propose a new method: ""To address the aforementioned issues in existing KT models, we propose a novel Temporal- and Causal-enhanced Knowledge Tracing method (TCKT) that can learn more consistent representations of students� knowledge states. To achieve this, we incorporate the front-door adjustment method from the causal inference theory into the self-attention mechanism of our model. This adjustment method helps to eliminate the influence of data bias and identify more reasonable..."""
+63,No
+64,"The paper mentions potential bias in the manually-labeled Q-matrix due to inevitable errors and subjective bias. The authors address this by defining an enhanced Q-matrix to mitigate possible omissions or mistakes. They also acknowledge inaccuracies in clustering results and plan to use pre-trained representations to improve data accuracy.
+
+""Traditionally, if the knowledge concept k m is not contained in the exercise e j , Q jm will be set as 0, which shows students' performance on exercise e j has no influence on their knowledge mastery h m on knowledge concept k m . However, manually-labeled Q-matrix may be deficient because of inevitable errors and subjective bias [15,36]. In order to make up for possible omissions or mistakes, we define an enhanced Q-matrix q _ R J _M , where q jm will be set as a small positive value _ rather than 0 even if k m is not in e j . Although this unified setting is simple as well, as the focus of our paper is on the learning process modeling part, we leave the exploration to learn the specific weights in the Q-matrix as future works."""
+65,"The paper addresses data sparsity by constructing KC relation graphs based on data statistics and setting thresholds to ensure significant relationships are considered. ""In the absence of KC relation annotations in the datasets, we construct the KC relation graph based on data statistics."""
+66,"ten variants of MPSG are designed to investigate the effectiveness of each key component. The ablation studies mainly focus on four aspects: (1) the sampling process, (2) the graph networks for representation learning, (3) the feature aggregation strategies, and (4) the constraints."
+67,No
+68,"The paper addresses ""answer bias,"" which is an unbalanced distribution of correct and incorrect answers for each question. 
+
+The answer bias can be naturally explained in terms of the differences in difficulty between questions (Shen et al., 2022). Nevertheless, it also provides a shortcut for achieving good prediction performance in KT. After a preliminary analysis, we found that a dumb model that blindly selects the more frequently occurring answer for each question can also achieve reasonable accuracy in testing, even without taking into account any of the students� past learning interactions!"
+69,"""Sparse curriculum problem: It exacerbates the uneven distribution of interactions."" The authors note: ""in the case of the problem of sparse curriculum, Caps-HAGKT provides the relational inductive biases by using graph-structure data, which helps to enhance the ability of inductive speculation on future performance."" They provide density metrics for each dataset and show how their approach helps with ""alleviating the problem of sparse courses."""
+70,No
+71,"Most deep learning-based KT models have suffered from attributions of KT datasets such as the data sparsity, changeability of the knowledge state, and educational domain. Firstly, KT datasets are often sparser; each sequence represents one student�s learning history, and the high attrition rates in online education render many of these sequences relatively brief and incomplete. KT is inherently 
+educational, requiring insights from pedagogy, such as educational psychology 
+and learning sciences. [9] For instance, as students may forget earlier topics 
+more quickly than recent ones, considering factors like question difficulty-often 
+calculated using item-based theory (IRT), becomes crucial in predicting student 
+performance"
+72,"The paper addresses subjective bias in the manually-labeled Q-matrix and proposes an enhanced Q-matrix to mitigate these biases.
+
+""However, manually-labeled Q-matrix may be deficient because of inevitable errors and subjective bias. In order to make up for possible omissions or mistakes, we define an enhanced Q-matrix"""
+73,"To tackle the issue of sparse educational data, the model employs comparative learning to identify similar or dissimilar examples from historical data."
+74,"we argue that a learner may have response biases, such as careless responses or guessing responses, when performing questions over a period of time. Along this line, we design a bias-aware contrastive learning module for learning robust representations."
+75,"""To mitigate the deep learning model's overemphasis on local samples and to improve its capacity to learn from global samples, this paper introduces an innovative contrastive learning strategy... To tackle the problem of sample imbalance, the paper assigns varying weights to local and global information."""
+76,The paper addresses data sparsity by removing records with fewer than five practice entries and limiting analysis to the first 50 interactions per user. It also deals with data inconsistency by assuming uniform time intervals in the absence of timestamps.
+77,"we study the performance in two cold start scenarios, i.e., training with data of a few students and new students with short exercise sequences.
+
+Although this work considers the cold start issue in the experiments, our model did not perform any optimization and more analysis is needed."
+78,No
+79,No
+80,"paper addresses data inconsistency by filtering out missing records and incomplete solutions, data imbalance by using discretization and stratified sampling, and data sparsity by generating synthetic training data using autoencoders."
+81,No
+82,The paper addresses data inconsistency by using an updated version of the ASSISTments dataset to handle duplicated records and discards incomplete records during preprocessing. Dropout is used to prevent overfitting.
+83,No
+84,No
