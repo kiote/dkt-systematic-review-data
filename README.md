@@ -16,7 +16,7 @@ This repository contains the data extraction and supplementary materials for the
 
 ```
 ├── csv/
-│   ├── information_extraction.csv    ← Final data extraction for all 84 included studies
+│   ├── information_extraction.csv    ← Final data extraction for all 83 included studies
 │   └── quality_appraisal.csv         ← Per-study quality appraisal scores
 │
 └── supplements/
@@ -30,11 +30,11 @@ This repository contains the data extraction and supplementary materials for the
 
 ## Data Extraction (`csv/information_extraction.csv`)
 
-The main data file contains one row per included study (N = 84) with the following columns:
+The main data file contains one row per included study (N = 83) with the following columns:
 
 | Column | Description |
 |--------|-------------|
-| ID | Study identifier (1–84) |
+| ID | Study identifier (1–83) |
 | DOI | Digital Object Identifier |
 | Year | Publication year |
 | Title | Paper title |
